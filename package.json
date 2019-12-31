@@ -1,0 +1,26 @@
+{
+  "name": "hoth-light-theme",
+  "displayName": "Hoth Light Theme",
+  "description": "VS Code color theme based on the Slack theme Hoth",
+  "version": "0.0.1",
+  "publisher": "Chad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaddanna/hoth-theme"
+  },
+  "engines": {
+    "vscode": "^1.41.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Hoth Light Theme",
+        "uiTheme": "vs",
+        "path": "./themes/Hoth Light Theme-color-theme.json"
+      }
+    ]
+  }
+}
